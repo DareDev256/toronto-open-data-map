@@ -1,8 +1,25 @@
-# Toronto City Pulse — Real-Time 3D City Intelligence
+# Toronto City Pulse: Toronto open data map
 
-Interactive 3D city intelligence dashboard for Toronto. 10+ live data layers from Toronto Open Data on a single 3D map — parking enforcement, TTC vehicles, bike share, road closures, cameras, collisions, and more.
+Toronto City Pulse is a Toronto open data map: City of Toronto Open Data, TTC and Bike Share feeds on one 3D map, covering parking enforcement, live transit, bike share, road closures, traffic and red light cameras and collisions, for anyone exploring the city's open data.
+
+![Toronto City Pulse at 9 AM: 2024 parking ticket hot spots across Toronto on a dark 3D map, with tickets per hour, locations and average fine](docs/screenshots/2026-11-15_toronto-open-data-map.png)
 
 **Live:** [toronto-parking-viz.vercel.app](https://toronto-parking-viz.vercel.app)
+
+## Quick start
+
+```bash
+git clone https://github.com/DareDev256/toronto-open-data-map.git
+cd toronto-open-data-map
+npm install
+npm run dev
+```
+
+No API keys are needed: every source is a public feed. License: MIT, see [LICENSE](LICENSE).
+
+---
+
+Interactive 3D city dashboard for Toronto. 10+ data layers from Toronto Open Data and the city's live feeds on a single 3D map.
 
 ## Data Layers
 
